@@ -4,6 +4,7 @@
 }
 /* menu-top first piece  start*/
 .container-top{
+    margin-top: 15px;
     height: 60px;
     display: flex;
     justify-content: center;
@@ -51,3 +52,87 @@
     margin-left: 9px;
 }
 /* ============End-1====== */
+/* menu-second-start */
+ .menu-second{
+    Background-Color:rgb(248, 248, 248);
+    
+}
+.level-1{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+
+}
+.level-1 > li{
+    margin: 17px 10px;
+    
+}
+.level-1 > li:hover{
+    background-color: greenyellow;
+    
+}
+.level-1 > li > a{
+    text-transform: uppercase;
+    Font: 17px Roboto, sans-serif;
+    text-decoration: none;
+    color: #92929d;
+    transition: all 0.6s;
+}
+.level-1 > li > a:hover{
+    text-decoration: underline;
+    Color:rgb(110, 85, 180);
+}
+/* ===============leve2================= */
+.level-1 .mom{
+    position: relative;
+}
+.level-2{
+    Background-Color:rgb(248, 248, 248);
+    position: absolute;
+    left: -15px;
+    top: 40px;
+    height: 80px;
+    width: 440px;
+    display: flex;
+    padding: 10px 15px 0px 15px;
+    visibility: hidden;
+    transition-delay: 0.2s;
+
+}
+
+.level-2 > li{
+    list-style: none;
+    margin: 5px  15px 0px 0px;
+    font-size: 10px;
+    
+}
+
+.level-1 .mom:hover  .level-2   { 
+    visibility: visible;
+}
+
+.level-2 > li > a{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 15px;
+}
+.level-2 > li:hover > a{
+    text-decoration: underline;
+    background-color: aquamarine;
+
+}
+/* level-3 */
+.level-3 li {
+    font-size: 15px;
+    list-style: none;
+    padding-top: 5px;
+}
+.level-3 li:hover  a{
+    background-color: grey;
+}
+
+.level-3 li a{
+    text-decoration: none;
+}
+/* menu-second-end */
