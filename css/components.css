@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
 }
-/* menu-top first piece  start*/
+/* ========menu-top first-piece- start*/
 .container-top{
     margin-top: 15px;
     height: 60px;
@@ -187,3 +187,64 @@
     color: white;
 }
 /* =======================picture-cover - end============= */
+/* ============cover-zing-chart-start ============= */
+.p-chart{
+    margin: 30px auto;
+    width: 1024px;
+    height: 344px;
+    padding-bottom: 30px;
+}
+.p-chart .chartbox {
+    margin: 0px auto;
+    height: 400px;
+    width: 930px;
+    display: flex;
+
+}
+
+/* ============---- */
+.p-chart .right {
+    background-color: #594975;
+    padding: 15px 15px;
+
+}
+.p-chart .right .cover-right{
+    margin: 10px 0px 0px 0px;
+    border-radius: 3px;
+    width: 252px;
+    display: flex;
+    align-items: center;
+}
+.p-chart .right .cover-right:hover {
+    background-color: rgba(250, 27, 250, 0.212);
+    border-radius: 5px;
+
+}
+.p-chart .right .number{
+    margin: 0px 15px 0px 10px;
+    font-size: 20px;
+    color: white ;
+    box-sizing: border-box;
+}
+.p-chart .right img{
+    font-size: 20px;
+}
+.p-chart .right .between {
+    color: white ;
+    font: 20px arial ;
+    width: 100px;
+    padding-left: 20px;
+    flex-grow: 1;
+    box-sizing: border-box;
+}
+.p-chart .right .between .top{
+    font-size: 13px;
+}
+.p-chart .right .between .bottom{
+    font-size: 12px;
+}
+.p-chart .right .percent{
+    color: white;
+}
+
+/* ============cover-zing-chart-end ============= */
