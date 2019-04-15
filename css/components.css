@@ -248,3 +248,124 @@
 }
 
 /* ============cover-zing-chart-end ============= */
+/* <!-- ==============#Zingchart-week-start========= --> */
+.zingchart-week{
+    border: 1px solid gray;
+    width: 930px;
+    height: 1800px;
+    margin: 0px auto;
+}
+.zingchart-week .container{
+    margin-top: 30px;
+    display: flex;
+}
+.zingchart-week .container i{
+    font-size: 25px;
+    padding: 0px 10px;
+}
+ /* <!-- ==============#clear-fix-start========= --> */
+ .container-picture{
+     display: flex;
+ }
+.container-picture .first-picture{
+    height: 116px;
+    width: 216px;
+    margin-top: 25px;
+    padding-right: 20px;
+}
+ /* <!-- ==============#zingchart-top100========= --> */
+ .main-flex{
+     display: flex;
+     width: 930px;
+ }
+ .padding{
+     margin-left: 12px;
+     margin-right: 10px;
+ }
+ .container-top100{ 
+     margin-top: 20px;
+     height: 247px;
+     width: 210px;
+     transition: 0.7s;
+     background: url(file:///D:/MasterCss/zingvn/images/210x247.png) left top no-repeat ;
+
+ }
+ .container-top100:hover{
+     transform: scale(0.8);
+ }
+  .container-top100 .overlay{ 
+    font-size: 70px;
+    height: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    opacity: 0;
+    transition: 0.4s;
+    padding-right: 10px;
+}
+ .container-top100 .hover{
+     font-size: 70px;
+ }
+ .container-top100 h4{
+     margin-top: 15px;
+ }
+ .wrapper .overlay:hover{
+    opacity: 1; 
+    color: white; 
+}
+.wrapper:hover .overlay i{
+    transform: scale(1);  
+}
+.wrapper .overlay i{
+    font-size: 60px;
+    color: white;
+}
+/* ===============main-flex2========================== */
+ /* <!-- ==============#zingchart-top100========= --> */
+ .main-flex-2{
+    display: flex;
+    width: 1024px;
+    margin-top: 50px;
+}
+.padding-2{
+    margin-left: 12px;
+    margin-right: 10px;
+}
+.container-top100-2{ 
+
+    height: 247px;
+    width: 210px;
+    transition: 0.7s;
+    background: url(file:///D:/MasterCss/zingvn/images/210x247.png) left top no-repeat ;
+
+}
+.container-top100-2:hover{
+    transform: scale(0.8);
+}
+ .container-top100-2 .overlay-2{ 
+   font-size: 70px;
+   height: 100%;
+   align-items: center;
+   display: flex;
+   justify-content: center;
+   opacity: 0;
+   transition: 0.4s;
+   padding-right: 10px;
+}
+.container-top100-2 .hover{
+    font-size: 70px;
+}
+.container-top100-2 h4{
+    margin-top: 15px;
+}
+.wrapper .overlay-2:hover{
+   opacity: 1; 
+   color: white; 
+}
+.wrapper:hover .overlay-2 i{
+   transform: scale(1);  
+}
+.wrapper .overlay-2 i{
+   font-size: 60px;
+   color: white;
+}
