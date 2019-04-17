@@ -488,6 +488,9 @@
     opacity: 1;
 }
 /* ===============subject-top============ */
+.subject-container{
+    height: 330px;
+}
 .subject-top{
     display: flex;
     align-items: center;
@@ -523,9 +526,51 @@
 .subject-below .subject-picture h3:hover{
     color: #594975;
     font-size: 25px;
+    height: 80%;
   
 }
 .subject-below .subject-picture:after {
     content: "";
     clear: both;
+}
+/* ========ablum-hot-word================= */
+.album-hot-container{
+    height: 500px;
+}
+.ablum-hot-word{
+    display: flex;
+    align-items: center;
+}
+.ablum-hot-word h1{
+    flex-grow: 1;
+}
+.ablum-hot-word h3{
+    margin-right: 20px;
+}
+/* ========ablum-hot-picture-hover================= */
+.ablum-hot-picture{
+    float: left;
+}
+.picture-hover{
+    background: url(file:///D:/MasterCss/zingvn/images/210x210.png) left top no-repeat ;
+    height: 210px;
+    width: 210px;
+    margin: 25px 10px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+.picture-hover i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-size: 70px;
+    opacity: 0;
+    color: white;
+}
+.picture-hover i:hover{
+    opacity: 1;
+}
+.ablum-hot-picture h3, .ablum-hot-picture h5{
+    text-align: center;
 }
