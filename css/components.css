@@ -551,6 +551,10 @@
 .ablum-hot-picture{
     float: left;
 }
+.ablum-hot-picture::after{
+    content: "";
+    clear: both;
+}
 .picture-hover{
     background: url(file:///D:/MasterCss/zingvn/images/210x210.png) left top no-repeat ;
     height: 210px;
