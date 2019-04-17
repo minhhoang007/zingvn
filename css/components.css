@@ -250,7 +250,6 @@
 /* ============cover-zing-chart-end ============= */
 /* <!-- ==============#Zingchart-week-start========= --> */
 .zingchart-week{
-    border: 1px solid gray;
     width: 930px;
     height: 1800px;
     margin: 0px auto;
@@ -368,4 +367,110 @@
 .wrapper .overlay-2 i{
    font-size: 60px;
    color: white;
+}
+/* ===========newSong-container===== */
+.newsong-container{
+    height: 382px;
+    margin-top: 60px;
+    border-top: 1px solid gray;
+}
+.word-container{
+    display: flex;
+    
+}
+.newsong-container .word{
+   margin: 25px 720px 0px 0px;
+}
+.newsong-container  .small-word{
+  margin-top: 25px;
+  background-color: #594975;
+  color: white;
+
+}
+.newsong-container  .small-word:hover{
+    background-color: aqua;
+    color: black;
+}
+.box-container{
+    display: flex;
+    margin-top: 20px;
+}
+/* ===============content-left========== */
+.left-container{
+    border-right: 1px solid gray;
+    height: 275px;
+    width: 480px;
+    padding: 0px 10px;
+}
+.right-container{
+    height: 275px;
+    width: 480px;
+   
+}
+.content-left{
+    display: flex;
+    align-items: center;
+    padding: 15px 10px;
+}
+.content-left:hover{
+    background-color: #efefef;
+}
+.picture-left{
+    padding-right: 15px;
+    background-color: aquamarine;
+    height: 40px;
+    width: 40px; 
+    background: url(file:///D:/MasterCss/zingvn/images/40x40.png) left top no-repeat ;
+}
+.word-center{
+    flex-grow: 1;
+}
+.symbol-right{
+    background: url(file:///D:/MasterCss/zingvn/images/symbol-icon.png) left top no-repeat ;
+    height: 20px;
+    width: 60px;
+    opacity: 0;
+   
+}
+.content-left:hover .symbol-right{
+    opacity: 1;
+}
+/* ===============content-right========== */
+.right-container{
+    height: 275px;
+    width: 480px;
+    padding: 0px 10px;
+}
+.right-container{
+    height: 275px;
+    width: 480px;
+   
+}
+.content-right{
+    display: flex;
+    align-items: center;
+    padding: 15px 10px;
+}
+.content-right:hover{
+    background-color: #efefef;
+}
+.picture-right{
+    padding-right: 15px;
+    background-color: aquamarine;
+    height: 40px;
+    width: 40px; 
+    background: url(file:///D:/MasterCss/zingvn/images/40x40.png) left top no-repeat ;
+}
+.word-center{
+    flex-grow: 1;
+}
+.symbol-right{
+    background: url(file:///D:/MasterCss/zingvn/images/symbol-icon.png) left top no-repeat ;
+    height: 20px;
+    width: 60px;
+    opacity: 0;
+   
+}
+.content-right:hover .symbol-right{
+    opacity: 1;
 }
