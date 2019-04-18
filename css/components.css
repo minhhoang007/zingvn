@@ -694,3 +694,76 @@
 .singer-famous-container{
     height: 200px;
 }
+.singer-flex{
+    display: flex;
+}
+.v-singer1{
+    height: 100px;
+    width: 100px;
+    border: 1px solid gray;
+    border-radius: 100px;
+    margin: 20px 20px;
+    position: relative;
+    list-style: none;
+    background: url(file:///D:/MasterCss/zingvn/images/480x265.png) left top no-repeat ;
+
+
+}
+.v-singer1 .phuong-ly{
+    position: absolute;
+    text-decoration: none;
+    top: 100px;
+    left: 12px;
+}
+/* ===========footer============ */
+.footer-container{
+    border: 1px solid gray;
+    background-color: #594975;
+    height: 60px;
+   
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    height: 100%;
+   
+}
+.footer-content img{
+    margin: 0px 50px;
+    border-radius: 40px;
+}
+.footer-content span{
+    flex-grow: 1;
+    font-size: 20px;
+    color: #efefef;
+}
+.footer-content  button{
+    margin-right: 50px;
+    font-size: 20px;
+    padding: 5px;
+}
+.footer-content  button:hover{
+    background-color: yellowgreen;
+}
+/* ===========copy-right========== */
+.copyright{
+    height: 100px;
+    width: 250px;
+    margin: 20px auto;
+    
+}
+.copyright-top{
+    display: flex;
+    align-items: center;
+}
+.copyright-top img{
+    border-radius: 40px;
+    margin-right: 5px;
+}
+.copyright-below{
+    margin: 10px 10px 10px 35px;
+}
+.copyright-below a{
+    margin-right: 5px;
+    color: black;
+}
