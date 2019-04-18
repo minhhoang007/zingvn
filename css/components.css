@@ -1,6 +1,7 @@
 *{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 /* ========menu-top first-piece- start*/
 .container-top{
@@ -535,7 +536,7 @@
 }
 /* ========ablum-hot-word================= */
 .album-hot-container{
-    height: 500px;
+    height: 600px;
 }
 .ablum-hot-word{
     display: flex;
@@ -577,4 +578,119 @@
 }
 .ablum-hot-picture h3, .ablum-hot-picture h5{
     text-align: center;
+}
+/* ===========viedo-hot=========== */
+.video-hot-container{
+    height: 372px;
+}
+.menu-video-hot {
+    display: flex;
+    align-items: center;
+}
+.menu-video-hot a{
+    text-decoration: none;
+    color: #92929d;
+}
+.menu-video-hot a:hover{
+    text-decoration: underline;
+}
+.menu-video-hot a h2 {
+    box-sizing: border-box;
+    margin-right: 450px;
+}
+.menu-video-hot a h3{
+    margin-right: 20px;
+    box-sizing: border-box;
+}
+/* ==============video-hot-picture-left================ */
+.picture-video-hot{
+    margin-top: 20px;
+    display: flex;
+}
+.picture-video-hot .video-hot-left{
+    height: 265px;
+    width: 480px;
+    background: url(file:///D:/MasterCss/zingvn/images/480x265.png) left top no-repeat ;
+    border-radius: 10px;
+    
+}
+.picture-video-hot .video-hot-left:hover{
+    opacity: 1;
+}
+.video-hot-left .overlay{
+    position: relative;
+    height: 100%;
+}
+
+.video-hot-left .overlay i {
+    position: absolute;
+    top: 90px;
+    left: 170px;
+    color: black;
+    font-size: 100px;
+    opacity: 0;
+    transition: 0.6s;
+    
+}
+.video-hot-left .overlay:hover i{
+    opacity: 1;
+}
+.video-hot-left .overlay h3{
+    position: absolute;
+    top: 190px;
+    left: 15px;
+    color: white;
+}
+.video-hot-left .overlay h5{
+    position: absolute;
+    top: 220px;
+    left: 15px;
+    color: white;
+}
+/* ==============video-hot-picture-right================ */
+.video-hot-right{
+    height: 265px;
+    width: 480px;
+    display: flex;
+}
+.video-hot-right .small-box{
+    background: url(file:///D:/MasterCss/zingvn/images/480x265.png) left top no-repeat ;
+    height: 124px;
+    width: 240px;
+    margin: 0px 10px 10px 20px;
+    border-radius: 5px;
+    position: relative;
+
+}
+
+.video-hot-right .small-box i{
+    position: absolute;
+    top: 35px;
+    left: 85px;
+    color: #594975;
+    opacity: 0;
+}
+.video-hot-right .small-box:hover i{
+    opacity: 1;
+}
+.video-hot-right > .small-box h3{
+    position: absolute;
+    top: 70px;
+    left: 10px;
+    color: purple;
+}
+.video-hot-right .small-box:hover h3{
+    opacity: 0;
+}
+.video-hot-right .small-box h5{
+    position: absolute;
+    top: 90px;
+    left: 10px;
+    color: purple;
+}
+.video-hot-right .small-box:hover h5{
+    opacity: 0;
+}
+.singer-famous-container{
+    height: 200px;
 }
